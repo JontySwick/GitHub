@@ -1,0 +1,14 @@
+# До этого была долгая и не совсем удачная борьба с bluetooth и новой версией kernel, которая никак не связана с ДЗ
+ 1659  cd ~/dev/ich/linux_and_git/hw12/
+ 1660  git clone git@github.com:JontySwick/GitHub.git ./
+ 1661  git branch 
+ 1662  git checkout -b feature
+ 1663  nano README.md
+ 1664  git status 
+ 1665  git add .
+ 1666  git commit -a
+ 1667  git push origin feature 
+ 1668  git commit --amend 
+ 1669  git checkout main 
+ 1670  git merge feature 
+ 1671  history > history.txt
